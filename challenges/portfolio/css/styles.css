@@ -6,6 +6,7 @@
   --text-color: #837E9F;
   --bg-cards: #302F3D;
   --bg-techs: #CB92B1;
+  --profile-border: #00FF00;
 }
 
 html {
@@ -13,4 +14,49 @@ html {
 	font-size: 16px;
 	box-sizing: border-box;
 	background-color: var(--body-bg-color);
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 2.5rem;
+}
+
+.sidebar {
+	width: 24%;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem 3rem 3rem 3rem;
+	background-color: var(--bg-cards);
+	border-radius: 1.25rem;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.profile__img {
+	width: 8rem;
+	margin-bottom: 1.875rem;
+	border: 2px solid var(--profile-border);
+	border-radius: 50%;
+}
+
+.profile__name,
+.profile__role {
+	color: var(--text-color);
+}
+
+.profile__name {
+	font-size: 1.4375rem;
+	font-weight: 700;
+	margin-bottom: .625rem;
+}
+
+.profile__role {
+	font-size: .8125rem;
+	font-weight: 300;
 }
