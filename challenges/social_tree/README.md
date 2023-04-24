@@ -1,7 +1,7 @@
 # Challenge: Social Tree
 
 <div align="center">
-	<img src="../repository-assets/challenges/social_tree/banner.png">
+	<img src="../../repository-assets/challenges/social_tree/banner.png">
 </div>
 
 ## :computer: About the challenge
@@ -11,7 +11,7 @@ In this challenge you have to create a page with a list of links that can be use
 ### Layout
 
 <div align="center">
-	<img src="../repository-assets/challenges/social_tree/layout.png">
+	<img src="../../repository-assets/challenges/social_tree/layout.png">
 </div>
 
 ## :rocket: Techs
