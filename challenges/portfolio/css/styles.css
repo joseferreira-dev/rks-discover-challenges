@@ -32,6 +32,14 @@ html {
 	min-width: 18.75rem;
 }
 
+.publications {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 70%;
+	min-width: 18.75rem;
+}
+
 .title__primary {
 	color: var(--text-color);
 	font-size: 1.4375rem;
@@ -68,7 +76,7 @@ html {
 .profile__role {
 	color: var(--text-color);
 	font-size: .8125rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .socialmedias {
@@ -90,7 +98,7 @@ html {
 	gap: 1.5rem;
 	color: var(--text-color);
 	font-size: .8125rem;
-	font-weight: 600;
+	font-weight: 500;
 	text-decoration: none;
 }
 
@@ -163,11 +171,159 @@ html {
 .experience__date,
 .education__date {
 	font-size: .75rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .experience__type,
 .education__course {
 	font-size: .75rem;
-	font-weight: 600;
+	font-weight: 500;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.section__header {
+	color: var(--text-color);
+	padding: 2rem;
+	background-color: var(--bg-cards);
+	border-radius: 1.25rem;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.projects__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.projects__header a {
+	color: var(--text-color);
+	font-size: 0.875rem;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.project__list {
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.project__card {
+	color: var(--text-color);
+	padding: 2rem;
+	background-color: var(--bg-cards);
+	border-radius: 1.25rem;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.project__header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.5rem;
+}
+
+.project__header svg {
+	margin-right: 1rem;
+}
+
+.project__header h3 {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.project__description {
+	font-size: .875rem;
+	font-weight: 400;
+	line-height: 1.25rem;
+	margin-bottom: 2rem;
+}
+
+.project__footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.project__status,
+.project__stars,
+.project__branch,
+.project__language {
+	display: flex;
+	align-items: center;
+	font-size: .875rem;
+	font-weight: 400;
+}
+
+.project__status {
+	gap: 1rem;
+}
+
+.project__stars,
+.project__branch,
+.project__language {
+	gap: .5rem;
+}
+.language__color {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	background-color: #E7DE79;
+	border:  2px solid var(--text-color);
+	border-radius: 50%;
+}
+
+.posts__list {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.post__card {
+	display: flex;
+	align-items: center;
+	color: var(--text-color);
+	padding: 2rem;
+	background-color: var(--bg-cards);
+	border-radius: 1.25rem;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.post__author {
+	width: 8rem;
+	height: 8rem;
+	margin-right: 1.25rem;
+}
+
+.post__title {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: .5rem;
+}
+
+.post__date {
+	font-size: .875rem;
+	font-weight: 400;
+	margin-bottom: 1.75rem;
+}
+
+.post__description {
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 0.75rem;
+}
+
+.post__taglist {
+	display: flex;
+	align-items: center;
+	gap: 1.75rem;
+}
+
+.post__tag {
+	font-size: .875rem;
+	font-weight: 400;
 }
