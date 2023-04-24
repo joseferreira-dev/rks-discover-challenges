@@ -15,3 +15,23 @@ html {
 	box-sizing: border-box;
 	background-color: var(--body-bg-color);
 }
+
+.background__image {
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	width: 50%;
+	height: 100vh;
+	background-image: url('../assets/img/read_news-small.jpg');
+	background-size: cover;
+	background-position: top right;
+}
+
+.header {
+	padding: 3rem 2rem;
+}
+
+.header__logo {
+	width: 24rem;
+}
+
