@@ -30,6 +30,18 @@ html {
 	min-width: 18.75rem;
 }
 
+.title__primary {
+	color: var(--text-color);
+	font-size: 1.4375rem;
+	font-weight: 700;
+}
+
+.title__secondary {
+	color: var(--text-color);
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
 .profile {
 	display: flex;
 	flex-direction: column;
@@ -47,18 +59,12 @@ html {
 	border-radius: 50%;
 }
 
-.profile__name,
-.profile__role {
-	color: var(--text-color);
-}
-
 .profile__name {
-	font-size: 1.4375rem;
-	font-weight: 700;
 	margin-bottom: .625rem;
 }
 
 .profile__role {
+	color: var(--text-color);
 	font-size: .8125rem;
 	font-weight: 300;
 }
@@ -83,4 +89,36 @@ html {
 	color: var(--text-color);
 	font-size: .8125rem;
 	text-decoration: none;
+}
+
+.tech {
+	padding: 2rem 1.25rem;
+	background-color: var(--bg-cards);
+	border-radius: 1.25rem;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tech__title {
+	margin-bottom: 1.25rem;
+}
+
+.tech__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.tech__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: .625rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 28%;
+	height: 1.5rem;
+	background-color: var(--bg-techs);
+	border-radius: .75rem;
 }
