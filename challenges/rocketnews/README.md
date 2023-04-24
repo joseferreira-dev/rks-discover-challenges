@@ -1,7 +1,7 @@
 # Challenge: Portfolio
 
 <div align="center">
-	<img src="../../repository-assets/challenges/rocketnews/banner.jpeg">
+	<img src="../../repository-assets/challenges/rocketnews/banner.png">
 </div>
 
 ## :computer: About the challenge
