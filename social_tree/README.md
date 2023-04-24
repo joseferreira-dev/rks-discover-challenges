@@ -31,5 +31,5 @@ In this challenge you have to create a page with a list of links that can be use
 
 ### Typography:
 
-font-family: Poppins 
-Font Weight: 300 e 600
+- font-family: Poppins
+- Font Weight: 300 and 600
