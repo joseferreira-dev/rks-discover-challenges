@@ -17,6 +17,8 @@ html {
 }
 
 .container {
+	display: flex;
+	gap: 3.75rem;
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 2.5rem;
@@ -88,6 +90,7 @@ html {
 	gap: 1.5rem;
 	color: var(--text-color);
 	font-size: .8125rem;
+	font-weight: 600;
 	text-decoration: none;
 }
 
@@ -121,4 +124,50 @@ html {
 	height: 1.5rem;
 	background-color: var(--bg-techs);
 	border-radius: .75rem;
+}
+
+.experience,
+.education {
+	padding: 2rem 1.25rem;
+	background-color: var(--bg-cards);
+	border-radius: 1.25rem;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.experience__title,
+.education__title {
+	margin-bottom: 1.25rem;
+}
+
+.experience__list,
+.education__list {
+	display: flex;
+	flex-direction: column;
+	color: var(--text-color);
+	gap: 1rem;
+	margin-left: 2.5rem;
+	list-style-type: disc;
+}
+
+.experience__item p,
+.education__item p {
+	line-height: 1rem;
+}
+
+.experience__company,
+.education__company {
+	font-size: .875rem;
+	font-weight: 700;
+}
+
+.experience__date,
+.education__date {
+	font-size: .75rem;
+	font-weight: 300;
+}
+
+.experience__type,
+.education__course {
+	font-size: .75rem;
+	font-weight: 600;
 }
