@@ -1,4 +1,4 @@
-# Challenge: Portfolio
+# Challenge: RocketNews
 
 <div align="center">
 	<img width="80%" src="../../repository-assets/challenges/rocketnews/banner.png">
