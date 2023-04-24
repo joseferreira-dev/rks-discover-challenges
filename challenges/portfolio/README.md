@@ -1,7 +1,7 @@
 # Challenge: Portfolio
 
 <div align="center">
-	<img src="../../repository-assets/challenges/portfolio/banner.png">
+	<img src="../../repository-assets/challenges/portfolio/banner.jpeg">
 </div>
 
 ## :computer: About the challenge
