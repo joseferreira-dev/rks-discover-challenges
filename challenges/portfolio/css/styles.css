@@ -40,6 +40,27 @@ html {
 	min-width: 18.75rem;
 }
 
+@media screen and (max-width: 768px) {
+	.container {
+		width: 70%;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.sidebar,
+	.publications {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		width: 18.75rem;
+		padding: 2rem;
+	}
+}
+
 .title__primary {
 	color: var(--text-color);
 	font-size: 1.4375rem;
@@ -180,6 +201,10 @@ html {
 	font-weight: 500;
 }
 
+.publications {
+	min-width: 18.75rem;
+}
+
 .section {
 	display: flex;
 	flex-direction: column;
@@ -213,12 +238,24 @@ html {
 	gap: 2rem;
 }
 
+@media screen and (max-width: 1080px) {
+	.project__list {
+		flex-wrap: wrap;
+	}
+}
+
 .project__card {
 	color: var(--text-color);
 	padding: 2rem;
 	background-color: var(--bg-cards);
 	border-radius: 1.25rem;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1080px) {
+	.project__card {
+		width: 100%;
+	}
 }
 
 .project__header {
@@ -283,6 +320,10 @@ html {
 	gap: 2rem;
 }
 
+.post__link {
+	text-decoration: none;
+}
+
 .post__card {
 	display: flex;
 	align-items: center;
@@ -299,9 +340,16 @@ html {
 	margin-right: 1.25rem;
 }
 
+@media screen and (max-width: 960px) {
+	.post__author {
+		display: none;
+	}
+}
+
 .post__title {
 	font-size: 1.25rem;
 	font-weight: 700;
+	line-height: 1.75rem;
 	margin-bottom: .5rem;
 }
 
@@ -314,13 +362,15 @@ html {
 .post__description {
 	font-size: 1rem;
 	font-weight: 400;
+	line-height: 1.5rem;
 	margin-bottom: 0.75rem;
 }
 
 .post__taglist {
 	display: flex;
 	align-items: center;
-	gap: 1.75rem;
+	flex-wrap: wrap;
+	gap: .75rem;
 }
 
 .post__tag {
