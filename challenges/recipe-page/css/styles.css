@@ -1,0 +1,17 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+  --body-bg-color: #EAEAEA;
+  --recipe-bg-color: #FFFFFF;
+  --text-color: #39393A;
+  --title-color: #1B1B1B;
+  --footer-color: #8F8F8F;
+}
+
+html {
+	font-family: 'League Spartan', Arial, sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
+	background-color: var(--body-bg-color);
+}
