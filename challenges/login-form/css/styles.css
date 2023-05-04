@@ -22,12 +22,23 @@
 
 html {
 	font-family: var(--font-primary);
-	background-color: var(--page-background);
+	background-color: var(--background);
 }
 
 .container {
+	display: flex;
 	max-width: 1440px;
-	padding: 2.5rem;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.container__main {
+	width: 50%;
+	padding: 2.5rem;
+}
+
+.container__image {
+	width: 50%;
+	height: 100vh;
+	object-fit: cover;
 }

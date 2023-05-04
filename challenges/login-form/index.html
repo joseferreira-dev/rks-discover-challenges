@@ -8,7 +8,39 @@
 </head>
 <body>
 	<div class="container">
-		
+		<div class="container__main">
+			<header class="header">
+				<img src="assets/logo.svg" alt="Logo">
+			</header>
+			<main class="main">
+				<img src="assets/log-in.svg" alt="Log-in icon">
+				<h1>Faça seu login</h1>
+				<p>Entre com suas informações de cadastro.</p>
+				<form action="">
+					<div class="input__group">
+						<label for="email">E-mail</label>
+						<input type="email" id="email" placeholder="Digite seu e-mail">
+						<img class="input__icon" src="assets/mail.svg" alt="E-mail icon">
+						<img class="input__icon input__icon-focus" src="assets/mail-focus.svg" alt="E-mail on focus icon">
+					</div>
+					<div class="input__group">
+						<label for="password">Senha</label>
+						<input type="password" id="password" placeholder="Digite sua senha">
+						<img class="input__icon input__password" src="assets/eye.svg" alt="Eye icon">
+						<img class="input__icon" src="assets/lock.svg" alt="Lock icon">
+						<img class="input__icon input__icon-focus" src="assets/lock-focus.svg" alt="Lock on focus icon">
+					</div>
+					<div class="input__group">
+						<label for="remember">Lembre-me</label>
+						<input type="checkbox" id="remember">
+						<a class="form__text form__link" href="">Esqueci minha senha</a>
+					</div>
+					<button>Entrar</button>
+					<span class="form__text">Não tem uma conta?<a class="form__link" href="">Registre-se</a></span>
+				</form>
+			</main>
+		</div>
+		<img class="container__image" src="assets/side-image-2x.jpg" alt="Image of a car with a camping tent on top, with a lake in the background">
 	</div>
 </body>
 </html>
