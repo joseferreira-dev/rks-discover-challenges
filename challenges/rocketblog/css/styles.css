@@ -36,3 +36,65 @@ html {
 .header {
   background-color: var(--purple-bg);
 }
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.header__logo {
+  width: 10rem;
+}
+
+.header__nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav__link {
+  color: var(--white);
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+}
+
+.nav__link-active {
+  font-weight: 700;
+  padding-left: .125rem;
+  border-left: 2px solid var(--green);
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 44px;
+}
+
+.search__input,
+.search__button {
+  margin: 0;
+  border: none;
+  border-radius: none;
+  background: none;
+}
+
+.search__input {
+  color: var(--white);
+  width: 77.5%;
+  padding: .875rem 1.5rem;
+  border-radius: .25rem 0 0 .25rem;
+  background-color: var(--dark-bg);
+}
+
+.search__button {
+  width: 22.5%;
+  height: 100%;
+  border-radius: 0 .25rem .25rem 0;
+  background-color: var(--button-bg);
+  cursor: pointer;
+}
