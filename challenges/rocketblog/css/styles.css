@@ -25,3 +25,14 @@ html {
 	font-family: var(--font-primary);
 	background-color: var(--light-purple);
 }
+
+.container {
+	max-width: 1440px;
+	padding: 0 135px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+  background-color: var(--purple-bg);
+}
