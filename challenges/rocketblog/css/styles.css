@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+	font-size: 16px;
+
+	--font-primary: 'Roboto', Arial, sans-serif;
+	--font-secondary: 'Poppins', Arial, sans-serif;
+	
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+	font-family: var(--font-primary);
+	background-color: var(--light-purple);
+}
