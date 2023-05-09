@@ -55,7 +55,7 @@ html {
   justify-content: space-between;
 }
 
-.nav__link a {
+.nav__link {
   color: var(--text);
   font-size: 1.5rem;
   font-weight: 700;
@@ -160,4 +160,49 @@ html {
 
 .product__image-active {
   border-bottom: 5px solid var(--button);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 166px;
+}
+
+.footer__social {
+  flex-grow: 2;
+}
+
+.footer__social ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social__link {
+  color: var(--text);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer__explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  background-color: var(--footer);
+}
+
+.footer__explore a {
+  color: var(--button-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .875rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
 }
