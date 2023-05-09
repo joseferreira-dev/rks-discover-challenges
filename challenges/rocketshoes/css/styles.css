@@ -27,16 +27,19 @@ html {
 }
 
 .container {
+  position: relative;
 	max-width: 1440px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .header {
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2.5rem 3.75rem 0;
+  width: 100%;
+  padding: 2.5rem 3.75rem 0;
 }
 
 .header__logo img {
@@ -82,4 +85,8 @@ html {
   width: 24px;
   height: 24px;
   background: url(../assets/svg/icon-search.svg);
+}
+
+.main {
+  padding-top: 170px;
 }
