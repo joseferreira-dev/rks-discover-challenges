@@ -4,3 +4,5 @@
 <br>
 
 # Challenges | Discover | RocketSeat
+
+Repository with the projects developed during the Discover course by Rocketseat.
